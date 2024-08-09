@@ -1,0 +1,23 @@
+.nav {
+  background-color: rgb(113, 255, 189);
+}
+
+.nav h2 {
+  color: #444;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul > li {
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+li > a {
+  color: rgb(39, 207, 126);
+  text-decoration: none;
+}

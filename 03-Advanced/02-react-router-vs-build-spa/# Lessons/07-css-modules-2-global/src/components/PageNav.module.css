@@ -1,0 +1,26 @@
+.nav {
+  background-color: crimson;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+ul > li {
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+.nav li > a {
+  color: white;
+  text-decoration: none;
+}
+
+:global(.test) {
+  background-color: rgb(255, 117, 67);
+}
+
+.nav :global(.active) {
+  color: rgb(0, 73, 119);
+}
